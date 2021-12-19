@@ -1,14 +1,26 @@
 {
-    "parent": "minecraft:item/handheld",
-    "textures": {
-        "layer0": "minecraft:item/netherite_hoe"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_hoe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/amethyst_hoe"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 1
-            },
-            "model": "overmine:item/gold_hoe"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/bronze_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "minecraft:item/netherite_hoe"
+    }
+  ]
 }

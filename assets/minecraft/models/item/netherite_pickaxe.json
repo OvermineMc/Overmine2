@@ -1,14 +1,26 @@
 {
-    "parent": "minecraft:item/handheld",
-    "textures": {
-        "layer0": "minecraft:item/netherite_pickaxe"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/amethyst_pickaxe"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 1
-            },
-            "model": "overmine:item/gold_pickaxe"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/bronze_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "minecraft:item/netherite_pickaxe"
+    }
+  ]
 }

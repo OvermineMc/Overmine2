@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:item/paladin_sword_gold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:item/paladin_sword_pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "itemsadder:item/paladin_sword_purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "minecraft:item/netherite_sword"
+    }
+  ]
+}
