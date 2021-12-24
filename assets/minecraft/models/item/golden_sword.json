@@ -30,7 +30,13 @@
     },
     {
       "predicate": {
-        "custom_model_data": 5
+        "custom_model_data": 10003
+      },
+      "model": "itemsadder:auto_generated/aqua_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
       },
       "model": "minecraft:item/golden_sword"
     }
